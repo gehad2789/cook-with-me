@@ -1,0 +1,47 @@
+[
+  {
+    "title": "corba",
+    "description": "Traditional Turkish soup made with chickpeas.",
+    "image": "/images/corba.jpg"
+  },
+  {
+    "title": "tacos",
+    "description": "Tasty tacos filled with anything you like!",
+    "image": "/images/tacos.png"
+  },
+  {
+    "title": "teriyaki chicken",
+    "description": "Sweet and savory Japanese favorite.",
+    "image": "/images/teriazi.png"
+  },
+  {
+    "title": "breakfast set",
+    "description": "Oatmeal, eggs, or smoothies to start your day.",
+    "image": "/images/break.png"
+  },
+  {
+    "title": "pizza",
+    "description": "Classic Italian dish with melted cheese and toppings.",
+    "image": "/images/pizza.png"
+  },
+  {
+    "title": "sushi",
+    "description": "Fresh Japanese rolls with rice, fish, and vegetables.",
+    "image": "/images/sushi.jpeg"
+  },
+  {
+    "title": "spaghetti",
+    "description": "Pasta served with rich tomato or creamy sauces.",
+    "image": "/images/spagetti.webp"
+  },
+  {
+    "title": "falafel platter",
+    "description": "Crispy falafel served with hummus and salad.",
+    "image": "/images/falafel-platter-3.png"
+  },
+  {
+    "title": "cheeseburger",
+    "description": "Juicy burger with cheese, lettuce, and tomato.",
+    "image": "/images/cheeseburger.png"
+  }
+]
