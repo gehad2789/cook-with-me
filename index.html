@@ -30,21 +30,21 @@
   </div>
 
   <!-- Header and navigation -->
-  <div class="container">
-    <header class="flex  justify-content-between align-items-center flex-wrap">
+  <div class="container px-5 ">
+    <header class=" d-flex align-items-center justify-content-between flex-wrap py-3 text-capitalize">
       <h1>
-        <a href="/" class="link">Cook</a>
+        <a href="/" class="logo fw-bold ">Cook.</a>
       </h1>
-       <section class="row shadow fs-4">
-        <a href="#" class="home col">Home</a>
-        <a href="#" class="col">About</a>
-        <a href="/recipes.html" class="col">Recipes</a>
-        <a href="#" class="col">Contest</a>
-        <a href="#" class="col">Blogs</a>
+       <section class="row shadow fs-5 gap-2 justify-content-center px-0 align-items-center flex-wrap text-center head-items">
+        <a href="#" class="home col-12 col-sm-auto">Home</a>
+        <a href="#" class="col-12 col-sm-auto">About</a>
+        <a href="/recipes.html" class="col-12 col-sm-auto">Recipes</a>
+        <a href="#" class="col-12 col-sm-auto">Contest</a>
+        <a href="#" class="col-12 col-sm-auto ">Blogs</a>
         
       </section>
-      <div class="m-3 ">
-      <button type="button" class="headBtn btn rounded-1 btn-ouline-muted">lastest contest</button>
+      <div class="m-3 text-center ">
+      <button type="button" class="prim-btn btn rounded-3 shadow ">lastest contest</button>
 
       </div>
 
@@ -56,23 +56,24 @@
     </header>
 
     <!-- Hero section -->
-    <section class="container ">
-      <div class="row">
-        <div class="left col-12 col-lg-6">
-          <h1 class="cook display-3 text-shadow">
-            Cook like a Pro with Our Easy and Teasty Recipes
+    <section class="container py-3 ">
+      <div class="row d-flex align-items-center">
+        <div class="left col-12 col-lg-7">
+          <h1 class="cook text-shadow fw-semibold text-shadow">
+            Cook like a Pro with
+            <br> Our <t>Easy</t> and <t>Teasty</t> Recipes
           </h1>
-          <p class="quick">
+          <p class="quick py-2 ">
             Form quick and easy meals to gourmet delights, we have <br> something for every test and
-            occasion.
+            occasion...
           </p>
-          <div class="d-flex justify-content-start">
-            <button class="btn headBtn  rounded-1" type="button">explore all recipes</button>
+          <div class="d-flex justify-content-start ">
+            <button class="btn prim-btn rounded-3" type="button">explore all recipes</button>
           </div>
         </div>
 
-        <div class="col-12 col-lg-6 text-start text-lg-end">
-          <img src="/images/Group 2.png" alt="chef" width="60%"/>
+        <div class="d-none d-lg-block col-lg-5 text-start text-lg-end ">
+          <img src="/images/Group 2.png" alt="chef" class="img-fluid" />
         </div>
       </div>
     </section>
@@ -109,7 +110,10 @@
               <p class="card-text">
                 Tacos are such a delicious and versatile food! You can fill them with just about anything.
               </p>
-              <button class="btn rounded-4 card-btn text-capitalize">see full details</button>
+              <div>
+                <button class="btn rounded-4  card-btn text-capitalize prim-btn ">see full details</button>
+
+              </div>
             </div>
           </div>
         </div>
@@ -122,7 +126,10 @@
               <p class="card-text">
                 Teriyaki chicken is a popular Japanese dish featuring chicken marinated in a sweet and savory sauce.
               </p>
-              <button class="btn rounded-4 card-btn text-capitalize">see full details</button>
+              <div>
+                <button class="btn rounded-4 card-btn text-capitalize">see full details</button>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -135,7 +142,9 @@
               <p class="card-text">
                 Breakfast is the first meal of the day. It can include oatmeal, eggs, or smoothies for energy.
               </p>
-              <button class="btn rounded-4 card-btn text-capitalize">see full details</button>
+              <div>
+                <button class="btn rounded-4 card-btn text-capitalize">see full details</button>
+              </div>
             </div>
           </div>
         </div>
@@ -150,12 +159,12 @@
       Discover new flavors and cooking techniques with our diverse selection of cuisine types.
     </p>
 
-    <div class="d-flex flex-nowrap scroll" id="imgcards">
-      <!-- Scrollable cards injected by JS -->
+    <div class="d-flex  overflow-x-auto" id="imgcards">
+      <!-- Scrollable cards injected by JS ,overflow-auto	Enables horizontal scroll if needed -->
     </div>
 
     <div class="d-flex justify-content-center gap-2 mb-3">
-      <button class="btn-sm rounded-circle rounded-0 border arrow" onclick="scrollLeft()">←</button>
+      <button class="btn-sm rounded-circle rounded-0 border arrow" onclick="scrolLeft()">←</button>
       <button class="btn-sm rounded-circle border arrow" onclick="scrollRight()">→</button>
     </div>
   </div>
